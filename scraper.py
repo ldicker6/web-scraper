@@ -15,7 +15,6 @@ def parse_links(root, html):
     for link in soup.find_all('a'):
         href = link.get('href')
         if href:
-            # Handle mailto and tel directly
             if href.startswith("mailto:"):
                 yield (f"{root}", f"EMAIL:{href[7:]}")
                 continue
@@ -174,3 +173,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
