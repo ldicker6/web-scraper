@@ -31,7 +31,7 @@ cd webscraper
 
 ### Run the scraper
 
-python scraper.py
+python scraper.py file:///path/to/test.html)
 
 ### Check the output
 
