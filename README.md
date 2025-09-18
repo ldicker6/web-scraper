@@ -35,12 +35,22 @@ python scraper.py
 
 ### Check the output
 
-extracted.txt → cleaned text extracted from pages
-visited.txt → list of visited links
-output.log → crawl log
+- extracted.txt → cleaned text extracted from pages
+- visited.txt → list of visited links
+- output.log → crawl log
 
 ---
 ## Example Output
+
+The scraper extracts contact information (emails, phone numbers, and addresses) and outputs them in structured `(URL, TYPE, VALUE)` tuples.
+
+Sample run on a local test page (`test.html`):
+
+(file:///test.html, EMAIL, test@example.com)
+(file:///test.html, PHONE, 410-555-1234)
+(file:///test.html, ADDRESS, Baltimore, MD 21218)
+
+This demonstrates the program’s ability to recognize and categorize different types of information consistently across pages.
 
 
 ---
