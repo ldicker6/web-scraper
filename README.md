@@ -46,9 +46,9 @@ The scraper extracts contact information (emails, phone numbers, and addresses) 
 
 Sample run on a local test page (`test.html`):
 
-(file:///test.html, EMAIL, test@example.com)
-(file:///test.html, PHONE, 410-555-1234)
-(file:///test.html, ADDRESS, Baltimore, MD 21218)
+('file:///Users/lilahdicker/Downloads/ifwa-webscraper/test.html', 'EMAIL', 'test@example.com')
+('file:///Users/lilahdicker/Downloads/ifwa-webscraper/test.html', 'PHONE', '410-555-1234')
+('file:///Users/lilahdicker/Downloads/ifwa-webscraper/test.html', 'ADDRESS', 'Baltimore, MD 21218')
 
 This demonstrates the program’s ability to recognize and categorize different types of information consistently across pages.
 
