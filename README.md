@@ -6,11 +6,10 @@ The scraper maintains visited links, follows new ones, and saves extracted conte
 ---
 
 ## Features
-- **Crawling**: Starts from links.txt, or through an Input URL: (e.g, run it using python scraper.py file:///path/to/test.html)
+- **Crawling**: Starts through an Input URL: (e.g, run it using python scraper.py file:///path/to/test.html)
 - **Duplicate Prevention**: Tracks visited pages (`visited.txt`) to avoid redundant scraping.  
 - **Content Extraction**: Extracts raw text from HTML and saves it into `extracted.txt`.  
 - **Logging**: Records progress, successes, and errors into `output.log`.  
-- **Configurable**: Input URLs can be customized through `links.txt`.  
 
 ---
 
