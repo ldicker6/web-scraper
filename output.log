@@ -1,0 +1,7 @@
+DEBUG:charset_normalizer:Encoding detection: ascii is most likely the one.
+DEBUG:charset_normalizer:Encoding detection: ascii is most likely the one.
+DEBUG:visited:file:///Users/lilahdicker/Downloads/ifwa-webscraper/test.html
+DEBUG:extracted:('file:///Users/lilahdicker/Downloads/ifwa-webscraper/test.html', 'EMAIL', 'test@example.com')
+DEBUG:extracted:('file:///Users/lilahdicker/Downloads/ifwa-webscraper/test.html', 'PHONE', '410-555-1234')
+DEBUG:extracted:('file:///Users/lilahdicker/Downloads/ifwa-webscraper/test.html', 'ADDRESS', 'Baltimore, MD 21218')
+DEBUG:charset_normalizer:Encoding detection: ascii is most likely the one.

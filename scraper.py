@@ -15,6 +15,14 @@ def parse_links(root, html):
     for link in soup.find_all('a'):
         href = link.get('href')
         if href:
+            # Handle mailto and tel directly
+            if href.startswith("mailto:"):
+                yield (f"{root}", f"EMAIL:{href[7:]}")
+                continue
+            if href.startswith("tel:"):
+                yield (f"{root}", f"PHONE:{href[4:]}")
+                continue
+
             text = link.string or ''
             text = re.sub(r'\s+', ' ', text).strip()
             yield (parse.urljoin(root, href), text)
